@@ -10,6 +10,11 @@ int main()
 	std::cout << "Please enter your number - ";
 	std::cin >> number;
 
+	if (number % 2 == 0)
+	{
+		std::cout << "Your number is even";
+	}
+
 	if (number % 2 == 1)
 	{
 		std::cout << "Your number is odd" << std::endl;
